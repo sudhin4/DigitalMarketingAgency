@@ -101,3 +101,14 @@
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width:453px){
+  .card-container{
+    width: 300px;
+    height: 80vh;
+    object-fit: cover;
+  }
+  .parafortheprojecttagsection{
+    width: 350px;
+    font-size: 14px;
+  }
+}

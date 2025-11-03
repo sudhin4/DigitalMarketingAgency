@@ -13,7 +13,7 @@ function Header(){
                 <h2 className="siderouteheadingg">Pricing</h2>
                 <div className="supportlogodivv">
                 <FaHeadset className="logoforheadset"/>
-            </div>
+                </div>
             </div>
             
         </div>

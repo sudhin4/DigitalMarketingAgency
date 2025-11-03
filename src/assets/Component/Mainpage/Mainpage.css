@@ -61,3 +61,34 @@
     top: 0px;
     left: 920px;
 }
+
+@media only screen and (max-width:453px){
+    .mainpagesection{
+        display: none;
+    }
+    .sideheadingformainpagesection{
+        width: 350px;
+        font-size: 13px;
+    }
+    .mainpaeheadingtag{
+        width: 350px;
+        font-size: 35px;
+    }
+    
+    .fullmainpagesection{
+        position: relative;
+        bottom: 50px;
+    }
+    .getdealbutton{
+        font-size: 17px;
+        width: 130px;
+        position: relative;
+        
+    }
+    .getdealbutton{
+        background-color: rgb(0, 119, 237);
+        font-weight: 500;
+    }
+
+    
+}

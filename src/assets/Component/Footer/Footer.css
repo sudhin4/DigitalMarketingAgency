@@ -66,7 +66,7 @@
 .h222{
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
 }
 .secondsectionofthefooter{
     display: flex;
@@ -100,4 +100,42 @@
 .subscribenewsletterdivv{
     position: relative;
     bottom: 20px;
+}
+@media only screen and (max-width:453px){
+    .footersectiondivv{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        position: relative;
+        bottom: 600px;
+    }
+    .secondsectionofthefooter{
+        flex-direction: column;
+    }
+    .headingfortheservicesectionn{
+        font-size: 20px;
+    }
+    .h222{
+        font-size: 15px;
+    }
+    .paragraphforsubscribeinfooter{
+        width: 300px;
+    }
+    .buttonforsubscribefornewsletter{
+        width: 100px;
+        height: 35px;
+        font-size: 17px;
+    }
+    .copyrightsss{
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 13px;
+       margin-top: 20px;
+        text-align: center;
+    }
+    .cpoyrightlogoo{
+        position: relative;
+        top: 2px;
+        font-size: 14px;
+    }
 }

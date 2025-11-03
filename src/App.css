@@ -46,6 +46,9 @@
 body{
   overflow-x: hidden;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 .serviceswhatwearedo{
   margin-top: 50px;
@@ -61,4 +64,42 @@ body{
 }
 .Headingforwhychooseusdivvv{
   margin-top: 90px;
+}
+.childdivforcountersection{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+
+@media only screen and (max-width:453px){
+  .btmheadingfornumbercounter{
+    font-size: 26px;
+  }
+  .countersection{
+    gap: 20px;
+    position: relative;
+    bottom: 120px;
+  }
+  .childdivforcountersection{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .paragraphandsideheadingforservicesfromapp{
+    width: 350px;
+    font-size: 14px;
+  }
+  .headingandsideheading{
+    position: relative;
+    bottom: 120px;
+  }
+  .servicecompoentnforappp{
+    position: relative;
+    bottom: 150px;
+  }
+  #root{
+    height: 500px;
+  }
+  
+  
 }

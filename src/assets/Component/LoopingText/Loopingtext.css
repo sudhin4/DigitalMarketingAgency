@@ -28,3 +28,13 @@
     font-weight: 900;
     font-size: 110px;
 }
+
+@media only screen and (max-width:453px){
+  .custom-text-style{
+    font-size: 150px;
+  }
+  .curved-loop-jacket{
+    position: relative;
+    bottom: 400px;
+  }
+}

@@ -4,6 +4,8 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
+
 
 
 
@@ -59,7 +61,7 @@ function Footer(){
                     <h3 className='h222'>Application Development</h3>
                 </div>
             </div>
-            
+            <h2 className='copyrightsss'> <FaRegCopyright className='cpoyrightlogoo'/> Copy rights are all Claimed</h2>
         </div>
         
         </>

@@ -9,3 +9,9 @@
     gap: 3px;
     align-items: center;
 }
+
+@media only screen and (max-width:453px){
+    .Numbercounter{
+        font-size: 25px;
+    }
+}

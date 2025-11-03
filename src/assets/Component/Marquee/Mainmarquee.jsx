@@ -6,11 +6,15 @@ function ClientsMarquee() {
     const velocity = 100
   return (
     <>
+    <div className="fulldivformarwuwwscroll">
+
       <ScrollVelocity
         texts={[<Clients/>,<Secondmarquee/>]}
         velocity={velocity}
         className="custom-scroll-text"
       />
+    </div>
+      
     </>
   );
 }

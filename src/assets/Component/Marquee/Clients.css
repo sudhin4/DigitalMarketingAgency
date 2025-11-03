@@ -30,3 +30,12 @@
     position: relative;
     bottom: 75px;
 }
+@media only screen and (max-width:453px){
+    .companylogoforclients{
+        width: 80px;
+    }
+    .fulldivformarwuwwscroll{
+        position: relative;
+        bottom: 60px;
+    }
+}

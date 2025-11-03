@@ -145,3 +145,15 @@
     position: relative;
     bottom: 120px;
 }
+
+@media only screen and (max-width:453px){
+    .paragraphforpricingmodelheading{
+        width: 350px;
+
+    }
+    .fullpricedetailsdivv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

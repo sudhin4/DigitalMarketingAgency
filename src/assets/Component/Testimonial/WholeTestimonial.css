@@ -1,4 +1,3 @@
-/* ========== REVIEW CARD ========== */
 .review-card {
   position: relative;
   width: 300px;
@@ -61,7 +60,6 @@
   border: 1px solid black;
 }
 
-/* ========== MARQUEE CONTAINER ========== */
 .marquee-container {
   position: relative;
   display: flex;
@@ -76,7 +74,6 @@
   padding: 5rem 0;
 }
 
-/* ========== MARQUEE ========== */
 .marquee {
   position: relative;
   width: 100%;
@@ -118,7 +115,6 @@
   }
 }
 
-/* ========== GRADIENT OVERLAYS ========== */
 .marquee-gradient-left,
 .marquee-gradient-right {
   pointer-events: none;
@@ -128,17 +124,6 @@
   z-index: 10;
 }
 
-/* .marquee-gradient-left {
-  left: 0;
-  background: linear-gradient(to right, #fff, transparent);
-}
-
-.marquee-gradient-right {
-  right: 0;
-  background: linear-gradient(to left, #fff, transparent);
-} */
-
-/* ========== DARK MODE ========== */
 @media (prefers-color-scheme: dark) {
   .review-card {
     border-color: rgba(255, 255, 255, 0.1);
@@ -149,10 +134,7 @@
     background-color: rgba(255, 255, 255, 0.15);
   }
 
-  /* .review-name,
-  .review-body {
-    color: #fff;
-  } */
+
 
   .review-username {
     color: rgba(255, 255, 255, 0.4);
@@ -160,13 +142,7 @@
 
   
 
-  /* .marquee-gradient-left {
-    background: linear-gradient(to right, #1a1a1a, transparent);
-  }
 
-  .marquee-gradient-right {
-    background: linear-gradient(to left, #1a1a1a, transparent);
-  } */
 }
 .starfontfortestimonial{
   font-size: 14px;
@@ -179,4 +155,11 @@
   position: relative;
   bottom: 30px;
   left: 50px;
+}
+
+@media only screen and (max-width:453px){
+  .marquee-container{
+    position: relative;
+    bottom: 120px;
+  }
 }

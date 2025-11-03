@@ -13,3 +13,9 @@
   display: inline-block;
   justify-content: center;
 }
+@media only screen and (max-width:453px){
+  .scroll-reveal-text{
+    font-size: 45px;
+    font-weight: 500;
+  }
+}

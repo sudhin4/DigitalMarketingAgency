@@ -30,49 +30,53 @@ function App() {
       {/* <Clients/> */}
 
       <div className="countersection">
-        <div className="countersectioncontent">
-          <Numbercounter
-            from={0}
-            to={150}
-            separator=","
-            direction="up"
-            duration={1}
-            className="Numbercounter"
-          />
-          <h2 className="btmheadingfornumbercounter">Clients</h2>
+        <div className="childdivforcountersection">
+          <div className="countersectioncontent">
+            <Numbercounter
+              from={0}
+              to={150}
+              separator=","
+              direction="up"
+              duration={1}
+              className="Numbercounter"
+            />
+            <h2 className="btmheadingfornumbercounter">Clients</h2>
+          </div>
+          <div className="countersectioncontent">
+            <Numbercounter
+              from={0}
+              to={300}
+              separator=","
+              direction="up"
+              duration={1}
+              className="Numbercounter"
+            />
+            <h2 className="btmheadingfornumbercounter">Projects</h2>
+          </div>
         </div>
-        <div className="countersectioncontent">
-          <Numbercounter
-            from={0}
-            to={300}
-            separator=","
-            direction="up"
-            duration={1}
-            className="Numbercounter"
-          />
-          <h2 className="btmheadingfornumbercounter">Projects</h2>
-        </div>
-        <div className="countersectioncontent">
-          <Numbercounter
-            from={0}
-            to={100}
-            separator=","
-            direction="up"
-            duration={1}
-            className="Numbercounter"
-          />
-          <h2 className="btmheadingfornumbercounter">Country</h2>
-        </div>
-        <div className="countersectioncontent">
-          <Numbercounter
-            from={0}
-            to={50}
-            separator=","
-            direction="up"
-            duration={1}
-            className="Numbercounter"
-          />
-          <h2 className="btmheadingfornumbercounter">Team</h2>
+        <div className="childdivforcountersection">
+          <div className="countersectioncontent">
+            <Numbercounter
+              from={0}
+              to={100}
+              separator=","
+              direction="up"
+              duration={1}
+              className="Numbercounter"
+            />
+            <h2 className="btmheadingfornumbercounter">Country</h2>
+          </div>
+          <div className="countersectioncontent">
+            <Numbercounter
+              from={0}
+              to={50}
+              separator=","
+              direction="up"
+              duration={1}
+              className="Numbercounter"
+            />
+            <h2 className="btmheadingfornumbercounter">Team</h2>
+          </div>
         </div>
       </div>
 
@@ -89,19 +93,18 @@ function App() {
           <Servicecomponenttwo />
         </div>
         <Fullproject />
-        
-      <div className="Headingforwhychooseusdivvv">
-        <HeadingforwhychooseusComp />
-      </div>
+
+        <div className="Headingforwhychooseusdivvv">
+          <HeadingforwhychooseusComp />
+        </div>
         <div className="whychooseusparedivvv">
-           
           <Whychoosemarket />
         </div>
       </div>
-      <Fullpricemodel/>
-      <MarqueeDemo/>
-      <FullcompLoopingtext/>
-      <Footer/>
+      <Fullpricemodel />
+      <MarqueeDemo />
+      <FullcompLoopingtext />
+      <Footer />
     </>
   );
 }
