@@ -1,0 +1,64 @@
+.headersectioninapp{
+  display: flex;
+  justify-content: center;
+}
+.btmheadingfornumbercounter{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(92, 91, 91);
+  position: relative;
+  bottom: 10px;
+}
+.countersectioncontent{
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  align-items: center;
+}
+.countersection{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.ourserviceheadingfromapp{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 24px;
+}
+.paragraphandsideheadingforservicesfromapp{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  width: 60%;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+.headingandsideheading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.serviceswhatwearedo{
+  margin-top: 50px;
+}
+.servicecompoentnforappp{
+  position: relative;
+  bottom: 20px;
+}
+.whychooseusparedivvv{
+  margin-top: 0px;
+  position: relative;
+  bottom: 120px;
+}
+.Headingforwhychooseusdivvv{
+  margin-top: 90px;
+}

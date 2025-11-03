@@ -1,0 +1,103 @@
+.logoforfooterheading{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+}
+.iconsforsocialmediainfooter{
+    font-size: 20px;
+    
+}
+.headingforthenewslettersection{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+}
+.logosforsocialmediadivv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.paragraphforsubscribeinfooter{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    width: 500px;
+    position: relative;
+    bottom: 19px;
+
+}
+.buttonforsubscribefornewsletter{
+    font-family: 'Poppins';
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    
+}
+.contacticonsection{
+    font-size: 20px;
+}
+.emailheadingforfooter{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+}
+.emailsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.contactsectiondiv{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1;
+}
+.headingfortheservicesectionn{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+}
+.h222{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+}
+.secondsectionofthefooter{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.firstservicesectiondiv{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1;
+}
+.footersectiondivv{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.secondsectionofthefooter{
+    margin-top: 30px;
+}
+.logoandsocialmedialink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscribenewsletterdivv{
+    position: relative;
+    bottom: 20px;
+}

@@ -1,0 +1,182 @@
+/* ========== REVIEW CARD ========== */
+.review-card {
+  position: relative;
+  width: 300px;
+  height: 180px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  
+}
+
+
+
+
+.review-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.review-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.review-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-name {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 800;
+ 
+}
+
+
+
+.review-body {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  
+
+  position: relative;
+  bottom: 20px;
+  left: 13px;
+}
+.review-card:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* ========== MARQUEE CONTAINER ========== */
+.marquee-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 0.75rem;
+ 
+  padding: 5rem 0;
+}
+
+/* ========== MARQUEE ========== */
+.marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 10px;
+  animation: marquee-scroll 20s linear infinite;
+}
+
+.marquee-reverse .marquee-content {
+  animation: marquee-scroll-reverse 20s linear infinite;
+}
+
+.marquee-pause-hover:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-scroll-reverse {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* ========== GRADIENT OVERLAYS ========== */
+.marquee-gradient-left,
+.marquee-gradient-right {
+  pointer-events: none;
+  position: absolute;
+  inset-block: 0;
+  width: 33.333%;
+  z-index: 10;
+}
+
+/* .marquee-gradient-left {
+  left: 0;
+  background: linear-gradient(to right, #fff, transparent);
+}
+
+.marquee-gradient-right {
+  right: 0;
+  background: linear-gradient(to left, #fff, transparent);
+} */
+
+/* ========== DARK MODE ========== */
+@media (prefers-color-scheme: dark) {
+  .review-card {
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(1, 1, 1, 0.991);
+  }
+
+  .review-card:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  /* .review-name,
+  .review-body {
+    color: #fff;
+  } */
+
+  .review-username {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  
+
+  /* .marquee-gradient-left {
+    background: linear-gradient(to right, #1a1a1a, transparent);
+  }
+
+  .marquee-gradient-right {
+    background: linear-gradient(to left, #1a1a1a, transparent);
+  } */
+}
+.starfontfortestimonial{
+  font-size: 14px;
+  color: gold;
+}
+.starsection{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  position: relative;
+  bottom: 30px;
+  left: 50px;
+}

@@ -1,0 +1,11 @@
+.Numbercounter{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+}
+.plusandnumberdivvsection{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+}

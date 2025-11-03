@@ -1,0 +1,32 @@
+.wholemaqueeinsidecontentdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.companylogoforclients{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.clientsdivformainpage{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.flipkart{
+    width: 50px;
+    height: 100px;
+}
+.fullofclientspagesection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.jio{
+    width: 50px;
+}
+.secondmarqueesection{
+    position: relative;
+    bottom: 75px;
+}

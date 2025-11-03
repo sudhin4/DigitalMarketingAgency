@@ -1,0 +1,49 @@
+.imageforservicesection{
+    width: 100px;
+    height: 100px;
+   position: relative;
+   bottom: 270px;
+   left: 270px;
+}
+.servicename{
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 22px;
+    padding-left: 20px;
+}
+.serviceparagraph{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 15px;
+    padding: 20px;
+    width: 300px;
+    color: rgb(244, 244, 244);
+    position: relative;
+    bottom: 50px;
+    
+}
+.imageandheadingservice{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    
+}
+.contentservicesectiondivv{
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid black;
+    width: 340px;
+    height: 220px;
+    flex: 1 1 180px;
+   border-radius: 10px; 
+   padding-left: 10px;
+   padding-right: 10px;
+   color: white;
+   background-color: black;
+   margin: 0;
+   
+}
+.fullservicesectiondivv{
+    height: 250px;
+}

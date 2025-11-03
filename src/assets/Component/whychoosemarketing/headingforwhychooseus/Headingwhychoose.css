@@ -1,0 +1,13 @@
+.blur-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Poppins';
+  font-weight: 900;
+  font-size: 60px;
+  
+}
+
+.blur-text-char {
+  display: inline-block;
+  will-change: transform, filter, opacity;
+}
