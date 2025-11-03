@@ -1,4 +1,3 @@
-import seo from '../../../Images/seo.png'
 import './Testing.css'
 
 function TestingComp({Name,image}) {

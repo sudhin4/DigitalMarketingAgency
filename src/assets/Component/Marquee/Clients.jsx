@@ -4,21 +4,17 @@ import Ceat from "../../../Images/Ceat.png";
 import DHL from "../../../Images/DHL.png";
 import godrej from "../../../Images/godrej.png";
 import Grow from "../../../Images/Grow.png";
-import flipkart from "../../../Images/flipkart.png";
 import lenskart from "../../../Images/Lenskart-Logo.png";
 import upstock from "../../../Images/upstock.png";
 import Tvs from "../../../Images/tvsimage.png";
-import Sony from "../../../Images/sony.png";
 
 // second row logos
 import Airtal from "../../../Images/Airtal.png";
 import Honda from "../../../Images/Vcare.png";
 import Oil from "../../../Images/Indian Oil.png";
-import Jio from "../../../Images/Jio.png";
 import Kotak from "../../../Images/Kotak.png";
 import Mrf from "../../../Images/Mrf.png";
 import Pain from "../../../Images/Paint.png";
-import Reliance from "../../../Images/Reliance.png";
 import Titan from "../../../Images/Titan.png";
 import Trends from "../../../Images/trends.png";
 

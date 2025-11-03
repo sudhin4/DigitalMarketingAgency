@@ -1,6 +1,6 @@
 import React from "react";
 import "./WholeTestimonial.css";
-import image1 from "../../../Images/person1.png";
+
 import { FaStar } from "react-icons/fa6";
 import { FaStarHalf } from "react-icons/fa";
 
