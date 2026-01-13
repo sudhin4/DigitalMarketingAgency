@@ -61,7 +61,7 @@ function Footer(){
                     <h3 className='h222'>Application Development</h3>
                 </div>
             </div>
-            <h2 className='copyrightsss'> <FaRegCopyright className='cpoyrightlogoo'/> Copy rights are all Claimed</h2>
+            <h2 className='copyrightsss'> <FaRegCopyright className='cpoyrightlogoo'/> Copy rights are all Claimed <a href="http://v1rtual.in">V1rtual</a></h2>
         </div>
         
         </>
